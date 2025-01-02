@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sys_button_ok">oke</string>
+    <string name="sys_button_cancel">cancel</string>
+    <string name="file_toolsbar_rename">file name toolbar</string>
+    <string name="pg_toolsbar_note">toolbar note</string>
+</resources>
