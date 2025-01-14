@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_open_buffer">Can not buffer</string>
+    <string name="cannot_open_document">Can not Document</string>
+    <string name="cannot_open_file_Path">Can not File Path</string>
+    <string name="choose_value">Choose Value</string>
+    <string name="copied_to_clipboard">Copy To Clipboard</string>
+    <string name="copy_text">Copy Text</string>
+    <string name="dialog_title">Title</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="no_match_found">No match found</string>
+    <string name="document_has_changes_save_them">Document has changes save theme</string>
+    <string name="enter_password">enter password</string>
+    <string name="fill_out_text_field">fill out text field</string>
+    <string name="no">No</string>
+    <string name="no_further_occurrences_found">no further occurrences found</string>
+    <string name="no_text_selected">no text selected</string>
+    <string name="not_supported">not_supported</string>
+    <string name="nothing_to_save">nothing to save</string>
+    <string name="okay">okay</string>
+    <string name="pdf_tools_accept">Accept</string>
+    <string name="pdf_tools_copy">copy</string>
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+    <string name="pdf_tools_outline_title">Table of Contents</string>
+    <string name="pdf_tools_search">pdf_tools_search</string>
+    <string name="pdf_tools_search_backwards">Search backwards</string>
+    <string name="pdf_tools_search_document">Search document</string>
+    <string name="pdf_tools_search_forwards">Search forwards</string>
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+    <string name="searching">searching…</string>
+    <string name="select_certificate_and_sign">select certificate and sign?</string>
+    <string name="select_text">select text</string>
+    <string name="signature_checked">signature checked</string>
+    <string name="text_not_found">text not found</string>
+    <string name="yes">Yes</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">يلغي</string>
+
+    <string name="cannot_open_buffer">لا يمكن التخزين المؤقت</string>
+
+    <string name="cannot_open_document">لا يمكن التوثيق</string>
+
+    <string name="cannot_open_file_Path">لا يمكن ملف المسار</string>
+
+    <string name="choose_value">اختر القيمة</string>
+
+    <string name="copied_to_clipboard">نسخ إلى الحافظة</string>
+
+    <string name="copy_text">نسخ النص</string>
+
+    <string name="dialog_title">لقب</string>
+
+    <string name="dismiss">رفض</string>
+
+    <string name="no_match_found">لا يوجد تطابق</string>
+
+    <string name="document_has_changes_save_them">المستند به تغييرات حفظ الموضوع</string>
+
+    <string name="enter_password">أدخل كلمة المرور</string>
+
+    <string name="fill_out_text_field">املأ حقل النص</string>
+
+    <string name="no">لا</string>
+
+    <string name="no_further_occurrences_found">لم يتم العثور على حالات أخرى</string>
+
+    <string name="no_text_selected">لم يتم تحديد نص</string>
+
+    <string name="not_supported">غير مدعوم</string>
+
+    <string name="nothing_to_save">لا شيء لحفظه</string>
+
+    <string name="okay">حسنا</string>
+
+    <string name="pdf_tools_accept">قبول</string>
+
+    <string name="pdf_tools_copy">ينسخ</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+
+    <string name="pdf_tools_outline_title">جدول المحتويات</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">البحث للخلف</string>
+
+    <string name="pdf_tools_search_document">وثيقة البحث</string>
+
+    <string name="pdf_tools_search_forwards">ابحث إلى الأمام</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">قم بتمييز الروابط وتمكينها</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">يبحث…</string>
+
+    <string name="select_certificate_and_sign">حدد الشهادة والتوقيع؟</string>
+
+    <string name="select_text">اختر نص</string>
+
+    <string name="signature_checked">فحص التوقيع</string>
+
+    <string name="text_not_found">النص غير موجود</string>
+
+    <string name="yes">نعم</string>
+</resources>

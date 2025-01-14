@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Huỷ bỏ</string>
+
+    <string name="cannot_open_buffer">Không thể đệm</string>
+
+    <string name="cannot_open_document">Không thể lập hồ sơ</string>
+
+    <string name="cannot_open_file_Path">Đường dẫn tệp không thể</string>
+
+    <string name="choose_value">Chọn giá trị</string>
+
+    <string name="copied_to_clipboard">Sao chép vào clipboard</string>
+
+    <string name="copy_text">Sao chép văn bản</string>
+
+    <string name="dialog_title">Tiêu đề</string>
+
+    <string name="dismiss">Bỏ qua</string>
+
+    <string name="no_match_found">Không tìm thấy kết quả phù hợp</string>
+
+    <string name="document_has_changes_save_them">Tài liệu có thay đổi lưu chủ đề</string>
+
+    <string name="enter_password">Nhập mật khẩu</string>
+
+    <string name="fill_out_text_field">Điền vào trường văn bản</string>
+
+    <string name="no">Không</string>
+
+    <string name="no_further_occurrences_found">Không có sự xuất hiện nào khác được tìm thấy</string>
+
+    <string name="no_text_selected">Không có văn bản nào được chọn</string>
+
+    <string name="not_supported">Không được hỗ trợ</string>
+
+    <string name="nothing_to_save">Không có gì để lưu</string>
+
+    <string name="okay">Được chứ</string>
+
+    <string name="pdf_tools_accept">Chấp nhận</string>
+
+    <string name="pdf_tools_copy">Sao chép</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+
+    <string name="pdf_tools_outline_title">Mục lục</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">Tìm kiếm ngược</string>
+
+    <string name="pdf_tools_search_document">Tìm kiếm tài liệu</string>
+
+    <string name="pdf_tools_search_forwards">Tìm kiếm chuyển tiếp</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">đang tìm kiếm…</string>
+
+    <string name="select_certificate_and_sign">chọn chứng chỉ và ký?</string>
+
+    <string name="select_text">chọn văn bản</string>
+
+    <string name="signature_checked">Đã kiểm tra chữ ký</string>
+
+    <string name="text_not_found">Không tìm thấy văn bản</string>
+
+    <string name="yes">Đúng</string>
+</resources>

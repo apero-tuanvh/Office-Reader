@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">annuleren</string>
+
+    <string name="cannot_open_buffer">Kan niet bufferen</string>
+
+    <string name="cannot_open_document">Kan niet documenteren</string>
+
+    <string name="cannot_open_file_Path">Kan pad niet openen</string>
+
+    <string name="choose_value">Kies Waarde</string>
+
+    <string name="copied_to_clipboard">Kopieer naar klembord</string>
+
+    <string name="copy_text">Kopieer tekst</string>
+
+    <string name="dialog_title">Titel</string>
+
+    <string name="dismiss">Afwijzen</string>
+
+    <string name="no_match_found">Geen overeenkomst gevonden</string>
+
+    <string name="document_has_changes_save_them">Document heeft wijzigingen opgeslagen thema</string>
+
+    <string name="enter_password">voer wachtwoord in</string>
+
+    <string name="fill_out_text_field">vul het tekstveld in</string>
+
+    <string name="no">Nee</string>
+
+    <string name="no_further_occurrences_found">geen verdere voorvallen gevonden</string>
+
+    <string name="no_text_selected">geen tekst geselecteerd</string>
+
+    <string name="not_supported">niet ondersteund</string>
+
+    <string name="nothing_to_save">niets te redden</string>
+
+    <string name="okay">Oke</string>
+
+    <string name="pdf_tools_accept">Aanvaarden</string>
+
+    <string name="pdf_tools_copy">kopiëren</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+
+    <string name="pdf_tools_outline_title">Inhoudsopgave</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">Achteruit zoeken</string>
+
+    <string name="pdf_tools_search_document">Zoek document</string>
+
+    <string name="pdf_tools_search_forwards">Vooruit zoeken</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">zoeken…</string>
+
+    <string name="select_certificate_and_sign">certificaat selecteren en ondertekenen?</string>
+
+    <string name="select_text">selecteer tekst</string>
+
+    <string name="signature_checked">handtekening gecontroleerd</string>
+
+    <string name="text_not_found">tekst niet gevonden</string>
+
+    <string name="yes">Ja</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">रद्द करना</string>
+
+    <string name="cannot_open_buffer">बफर नहीं कर सकते</string>
+
+    <string name="cannot_open_document">दस्तावेज नहीं कर सकते</string>
+
+    <string name="cannot_open_file_Path">फ़ाइल पथ नहीं कर सकता</string>
+
+    <string name="choose_value">मान चुनें</string>
+
+    <string name="copied_to_clipboard">क्लिपबोर्ड पर कॉपी करें</string>
+
+    <string name="copy_text">पाठ कॉपी करें</string>
+
+    <string name="dialog_title">शीर्षक</string>
+
+    <string name="dismiss">खारिज</string>
+
+    <string name="no_match_found">कोई मेल नहीं मिला</string>
+
+    <string name="document_has_changes_save_them">दस्तावेज़ में परिवर्तन थीम है</string>
+
+    <string name="enter_password">पास वर्ड दर्ज करें</string>
+
+    <string name="fill_out_text_field">टेक्स्ट फ़ील्ड भरें</string>
+
+    <string name="no">नहीं न</string>
+
+    <string name="no_further_occurrences_found">आगे कोई घटना नहीं मिली</string>
+
+    <string name="no_text_selected">कोई पाठ नहीं चुना गया</string>
+
+    <string name="not_supported">समर्थित नहीं</string>
+
+    <string name="nothing_to_save">कुछ भी नहीं बचा</string>
+
+    <string name="okay">अच्छा जी</string>
+
+    <string name="pdf_tools_accept">स्वीकार करना</string>
+
+    <string name="pdf_tools_copy">प्रतिलिपि</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+
+    <string name="pdf_tools_outline_title">विषयसूची</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">पीछे की ओर खोजें</string>
+
+    <string name="pdf_tools_search_document">दस्तावेज़ खोजें</string>
+
+    <string name="pdf_tools_search_forwards">आगे की खोज करें</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">खोज कर…</string>
+
+    <string name="select_certificate_and_sign">प्रमाण पत्र और हस्ताक्षर का चयन करें?</string>
+
+    <string name="select_text">पाठ चुनें</string>
+
+    <string name="signature_checked">हस्ताक्षर की जाँच की</string>
+
+    <string name="text_not_found">पाठ नहीं मिला</string>
+
+    <string name="yes">हाँ</string>
+</resources>

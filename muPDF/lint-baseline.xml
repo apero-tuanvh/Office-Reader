@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.2.0" type="baseline" client="gradle" dependencies="false" name="AGP (8.2.0)" variant="all" version="8.2.0">
+
+    <issue
+        id="ApplySharedPref"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background"
+        errorLine1="        editor.commit();"
+        errorLine2="               ~~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/SharedPreferencesUtil.java"
+            line="35"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="ApplySharedPref"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background"
+        errorLine1="                editor.remove(key).commit();"
+        errorLine2="                                   ~~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/SharedPreferencesUtil.java"
+            line="43"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="ApplySharedPref"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background"
+        errorLine1="        editor.commit();"
+        errorLine2="               ~~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/SharedPreferencesUtil.java"
+            line="51"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="InternalInsetResource"
+        message="Using internal inset dimension resource `status_bar_height` is not supported"
+        errorLine1="                        int resourceId = getResources().getIdentifier(&quot;status_bar_height&quot;, &quot;dimen&quot;, &quot;android&quot;);"
+        errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/StickerView.java"
+            line="208"
+            column="42"/>
+    </issue>
+
+    <issue
+        id="WrongConstant"
+        message="Must be one of: Context.POWER_SERVICE, Context.WINDOW_SERVICE, Context.LAYOUT_INFLATER_SERVICE, Context.ACCOUNT_SERVICE, Context.ACTIVITY_SERVICE, Context.ALARM_SERVICE, Context.NOTIFICATION_SERVICE, Context.ACCESSIBILITY_SERVICE, Context.CAPTIONING_SERVICE, Context.KEYGUARD_SERVICE, Context.LOCATION_SERVICE, Context.SEARCH_SERVICE, Context.SENSOR_SERVICE, Context.STORAGE_SERVICE, Context.STORAGE_STATS_SERVICE, Context.WALLPAPER_SERVICE, Context.VIBRATOR_SERVICE, Context.CONNECTIVITY_SERVICE, Context.IPSEC_SERVICE, Context.VPN_MANAGEMENT_SERVICE, Context.NETWORK_STATS_SERVICE, Context.WIFI_SERVICE, Context.WIFI_AWARE_SERVICE, Context.WIFI_P2P_SERVICE, Context.WIFI_RTT_RANGING_SERVICE, Context.NSD_SERVICE, Context.AUDIO_SERVICE, Context.FINGERPRINT_SERVICE, Context.BIOMETRIC_SERVICE, Context.MEDIA_ROUTER_SERVICE, Context.TELEPHONY_SERVICE, Context.TELEPHONY_SUBSCRIPTION_SERVICE, Context.CARRIER_CONFIG_SERVICE, Context.EUICC_SERVICE, Context.TELECOM_SERVICE, Context.CLIPBOARD_SERVICE, Context.INPUT_METHOD_SERVICE, Context.TEXT_SERVICES_MANAGER_SERVICE, Context.TEXT_CLASSIFICATION_SERVICE, Context.APPWIDGET_SERVICE, Context.DROPBOX_SERVICE, Context.DEVICE_POLICY_SERVICE, Context.UI_MODE_SERVICE, Context.DOWNLOAD_SERVICE, Context.NFC_SERVICE, Context.BLUETOOTH_SERVICE, Context.USB_SERVICE, Context.LAUNCHER_APPS_SERVICE, Context.INPUT_SERVICE, Context.DISPLAY_SERVICE, Context.USER_SERVICE, Context.RESTRICTIONS_SERVICE, Context.APP_OPS_SERVICE, Context.ROLE_SERVICE, Context.CAMERA_SERVICE, Context.PRINT_SERVICE, Context.CONSUMER_IR_SERVICE, Context.TV_INPUT_SERVICE, Context.USAGE_STATS_SERVICE, Context.MEDIA_SESSION_SERVICE, Context.BATTERY_SERVICE, Context.JOB_SCHEDULER_SERVICE, Context.MEDIA_PROJECTION_SERVICE, Context.MIDI_SERVICE, Context.HARDWARE_PROPERTIES_SERVICE, Context.SHORTCUT_SERVICE, Context.SYSTEM_HEALTH_SERVICE, Context.COMPANION_DEVICE_SERVICE, Context.CROSS_PROFILE_APPS_SERVICE"
+        errorLine1="        final ClipboardManager cm = (ClipboardManager) this.mContext.getSystemService(&quot;clipboard&quot;);"
+        errorLine2="                                                                                      ~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="337"
+            column="87"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.2.0 is available: 1.6.1"
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.2.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="38"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.0.4 is available: 2.1.4"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.0.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="39"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.customview:customview than 1.0.0 is available: 1.1.0"
+        errorLine1="    implementation &apos;androidx.customview:customview:1.0.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="40"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="SwitchIntDef"
+        message="Don&apos;t use a constant here; expected one of: `MeasureSpec.AT_MOST`, `MeasureSpec.EXACTLY`, `MeasureSpec.UNSPECIFIED`"
+        errorLine1="            case 0: {"
+        errorLine2="                 ~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/PageView.java"
+            line="537"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="SwitchIntDef"
+        message="Don&apos;t use a constant here; expected one of: `MeasureSpec.AT_MOST`, `MeasureSpec.EXACTLY`, `MeasureSpec.UNSPECIFIED`"
+        errorLine1="            case 0: {"
+        errorLine2="                 ~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/PageView.java"
+            line="548"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="StringFormatInvalid"
+        message="Format string &apos;`cannot_open_file_Path`&apos; is not a valid format string so it should not be passed to `String.format`"
+        errorLine1="            throw new Exception(String.format(context.getString(R.string.cannot_open_file_Path), filename));"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFCore.java"
+            line="143"
+            column="33"/>
+        <location
+            file="src/main/res/values-zu/strings.xml"
+            line="9"
+            column="5"
+            message="This definition does not require arguments"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;en&quot; (English) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-en/strings.xml"
+            line="35"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;pt&quot; (Portuguese) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Alternar modo de refluxo&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-pt/strings.xml"
+            line="35"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;ar&quot; (Arabic) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-ar/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;da&quot; (Danish) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-da/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;de&quot; (German) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-de/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;es&quot; (Spanish) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-es/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;fr&quot; (French) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-fr/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;hi&quot; (Hindi) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-hi/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;in&quot; (Indonesian) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-in/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;ja&quot; (Japanese) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-ja/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;ko&quot; (Korean) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-ko/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;nl&quot; (Dutch) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-nl/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;vi&quot; (Vietnamese) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-vi/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;zh&quot; (Chinese) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-zh/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        message="The resource string &quot;pdf_tools_toggle_reflow_mode&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;zu&quot; (Zulu) here"
+        errorLine1="    &lt;string name=&quot;pdf_tools_toggle_reflow_mode&quot; translatable=&quot;false&quot;>Toggle reflow mode&lt;/string>"
+        errorLine2="                                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-zu/strings.xml"
+            line="67"
+            column="49"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        message="Google Play requires that apps target API level 33 or higher."
+        errorLine1="        targetSdkVersion 30"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DrawAllocation"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)"
+        errorLine1="                    final Paint paint = new Paint();"
+        errorLine2="                                        ~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/PageView.java"
+            line="281"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="DrawAllocation"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)"
+        errorLine1="            Rect border = new Rect();"
+        errorLine2="                          ~~~~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/StickerView.java"
+            line="364"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="DrawAllocation"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)"
+        errorLine1="            Paint borderPaint = new Paint();"
+        errorLine2="                                ~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/StickerView.java"
+            line="369"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 11"
+        errorLine1="    @TargetApi(11)"
+        errorLine2="    ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="306"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="                if (Build.VERSION.SDK_INT >= 11 &amp;&amp; Build.VERSION.SDK_INT &lt; 14) {"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="445"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is never &lt; 21"
+        errorLine1="                if (Build.VERSION.SDK_INT >= 11 &amp;&amp; Build.VERSION.SDK_INT &lt; 14) {"
+        errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="445"
+            column="52"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="                if (Build.VERSION.SDK_INT >= 11 &amp;&amp; Build.VERSION.SDK_INT &lt; 14) {"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="459"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is never &lt; 21"
+        errorLine1="                if (Build.VERSION.SDK_INT >= 11 &amp;&amp; Build.VERSION.SDK_INT &lt; 14) {"
+        errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="459"
+            column="52"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="            if (Build.VERSION.SDK_INT >= 16) {"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/Stepper.java"
+            line="27"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v21`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `drawable-anydpi`.">
+        <location
+            file="src/main/res/drawable-anydpi-v21"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `drawable-hdpi`.">
+        <location
+            file="src/main/res/drawable-hdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `drawable-ldpi`.">
+        <location
+            file="src/main/res/drawable-ldpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `drawable-mdpi`.">
+        <location
+            file="src/main/res/drawable-mdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `drawable-xhdpi`.">
+        <location
+            file="src/main/res/drawable-xhdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `drawable-xxhdpi`.">
+        <location
+            file="src/main/res/drawable-xxhdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `drawable-xxxhdpi`.">
+        <location
+            file="src/main/res/drawable-xxxhdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `mipmap-hdpi`.">
+        <location
+            file="src/main/res/mipmap-hdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `mipmap-mdpi`.">
+        <location
+            file="src/main/res/mipmap-mdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `mipmap-xhdpi`.">
+        <location
+            file="src/main/res/mipmap-xhdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `mipmap-xxhdpi`.">
+        <location
+            file="src/main/res/mipmap-xxhdpi-v4"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v4`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `mipmap-xxxhdpi`.">
+        <location
+            file="src/main/res/mipmap-xxxhdpi-v4"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        this.asyncTask = new AsyncTask&lt;Params, Void, Result>() {"
+        errorLine2="                         ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/CancellableAsyncTask.java"
+            line="27"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="            final AsyncTask&lt;Void, Void, PointF> sizingTask = new AsyncTask&lt;Void, Void, PointF>() {"
+        errorLine2="                                                             ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageAdapter.java"
+            line="72"
+            column="62"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="                MuPDFPageView.this.mSetWidgetText = new AsyncTask&lt;String, Void, Boolean>() {"
+        errorLine2="                                                    ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="73"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mSign = new AsyncTask&lt;Void, Void, Boolean>() {"
+        errorLine2="                      ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="130"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="                MuPDFPageView.this.mSetWidgetChoice = new AsyncTask&lt;String, Void, Void>() {"
+        errorLine2="                                                      ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="168"
+            column="55"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mCheckSignature = new AsyncTask&lt;Void, Void, String>() {"
+        errorLine2="                                ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="190"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="            (this.mPassClick = new AsyncTask&lt;Void, Void, PassClickResult>() {"
+        errorLine2="                               ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="261"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mAddStrikeOut = new AsyncTask&lt;PointF[], Void, Void>() {"
+        errorLine2="                              ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="372"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="            (this.mDeleteAnnotation = new AsyncTask&lt;Integer, Void, Void>() {"
+        errorLine2="                                      ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="393"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mAddInk = new AsyncTask&lt;Object, Void, Void>() {"
+        errorLine2="                        ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="425"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mLoadAnnotations = new AsyncTask&lt;Void, Void, Annotation[]&gt;() {"
+        errorLine2="                                 ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="488"
+            column="34"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mLoadWidgetAreas = new AsyncTask&lt;Void, Void, RectF[]&gt;() {"
+        errorLine2="                                 ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="502"
+            column="34"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mGetLinkInfo = new AsyncTask&lt;Void, Void, LinkInfo[]&gt;() {"
+        errorLine2="                             ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/PageView.java"
+            line="232"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="            (this.mGetText = new AsyncTask&lt;Void, Void, TextWord[][]&gt;() {"
+        errorLine2="                             ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/PageView.java"
+            line="410"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This `AsyncTask` class should be static or leaks might occur (anonymous android.os.AsyncTask)"
+        errorLine1="        (this.mSearchTask = new AsyncTask&lt;Void, Integer, SearchTaskResult>() {"
+        errorLine2="                            ^">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/SearchTask.java"
+            line="58"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#323232` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
+        errorLine1="    android:background=&quot;#323232&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/toast.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        errorLine1="    &lt;string name=&quot;searching&quot;>mencari ...&lt;/string>"
+        errorLine2="                             ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-in/strings.xml"
+            line="71"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_check_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 18×18 in a `drawable-ldpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-ldpi-v4/ic_check_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_check_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 24×24 in a `drawable-mdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-mdpi-v4/ic_check_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_check_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 36×36 in a `drawable-hdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-hdpi-v4/ic_check_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_check_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 48×48 in a `drawable-xhdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-xhdpi-v4/ic_check_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_check_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 72×72 in a `drawable-xxhdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-xxhdpi-v4/ic_check_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_check_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 96×96 in a `drawable-xxxhdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-xxxhdpi-v4/ic_check_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_delete_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 18×18 in a `drawable-ldpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-ldpi-v4/ic_delete_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_delete_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 24×24 in a `drawable-mdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-mdpi-v4/ic_delete_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_delete_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 36×36 in a `drawable-hdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-hdpi-v4/ic_delete_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_delete_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 48×48 in a `drawable-xhdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-xhdpi-v4/ic_delete_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_delete_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 72×72 in a `drawable-xxhdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-xxhdpi-v4/ic_delete_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="Suspicious file name `ic_delete_white_48dp.png`: The implied 48 `dp` size does not match the actual `dp` size (pixel size 96×96 in a `drawable-xxxhdpi-v4` folder computes to 24×24 `dp`)">
+        <location
+            file="src/main/res/drawable-xxxhdpi-v4/ic_delete_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/transform.png` in densityless folder">
+        <location
+            file="src/main/res/drawable/transform.png"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        message="Missing `autofillHints` attribute"
+        errorLine1="&lt;EditText xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2=" ~~~~~~~~">
+        <location
+            file="src/main/res/layout/edittext_entry.xml"
+            line="2"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `MuPDFPageView` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="public class MuPDFPageView extends PageView implements MuPDFView {"
+        errorLine2="             ~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFPageView.java"
+            line="32"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.appcompat:appcompat is already available as `androidx-appcompat`, but using version 1.6.1 instead)"
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.2.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="38"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.0.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="39"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation &apos;androidx.customview:customview:1.0.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="40"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        message="Custom view `MuPDFReaderView` overrides `onTouchEvent` but not `performClick`"
+        errorLine1="    public boolean onTouchEvent(final MotionEvent event) {"
+        errorLine2="                   ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/MuPDFReaderView.java"
+            line="216"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        message="Custom view `ReaderView` overrides `onTouchEvent` but not `performClick`"
+        errorLine1="    public boolean onTouchEvent(final MotionEvent event) {"
+        errorLine2="                   ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/ReaderView.java"
+            line="669"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        message="Custom view ``ImageView`` has `setOnTouchListener` called on it but does not override `performClick`"
+        errorLine1="        this.iv_scale.setOnTouchListener(mTouchListener);"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/StickerView.java"
+            line="130"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        message="`onTouch` should call `View#performClick` when a click is detected"
+        errorLine1="        public boolean onTouch(View view, MotionEvent event) {"
+        errorLine2="                       ~~~~~~~">
+        <location
+            file="src/main/java/com/lonelypluto/pdflibrary/utils/StickerView.java"
+            line="162"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        message="Custom view `VDHDeepLayout` overrides `onTouchEvent` but not `performClick`"
+        errorLine1="    public boolean onTouchEvent(final MotionEvent event) {"
+        errorLine2="                   ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/artifex/mupdfdemo/widget/VDHDeepLayout.java"
+            line="67"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        message="Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
+        errorLine1="&lt;EditText xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2=" ~~~~~~~~">
+        <location
+            file="src/main/res/layout/edittext_entry.xml"
+            line="2"
+            column="2"/>
+    </issue>
+
+</issues>

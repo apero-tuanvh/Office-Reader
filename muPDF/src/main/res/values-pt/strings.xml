@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancelar</string>
+    <string name="cannot_open_buffer">Não é possível armazenar em buffer</string>
+    <string name="cannot_open_document">Não posso documentar</string>
+    <string name="cannot_open_file_Path">Não é possível o caminho do arquivo</string>
+    <string name="choose_value">Escolha O Valor</string>
+    <string name="copied_to_clipboard">Copiar Para A área De Transferência</string>
+    <string name="copy_text">Copiar Texto</string>
+    <string name="dialog_title">Título</string>
+    <string name="dismiss">Dispensar</string>
+    <string name="no_match_found">Nenhuma correspondência encontrada</string>
+    <string name="document_has_changes_save_them">Documento com alterações salvar tema</string>
+    <string name="enter_password">digite a senha</string>
+    <string name="fill_out_text_field">preencher o campo de texto</string>
+    <string name="no">Não</string>
+    <string name="no_further_occurrences_found">nenhuma outra ocorrência encontrada</string>
+    <string name="no_text_selected">nenhum texto selecionado</string>
+    <string name="not_supported">not_supported</string>
+    <string name="nothing_to_save">nada para salvar</string>
+    <string name="okay">ok</string>
+    <string name="pdf_tools_accept">Aceitar</string>
+    <string name="pdf_tools_copy">cópia</string>
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+    <string name="pdf_tools_outline_title">Índice</string>
+    <string name="pdf_tools_search">pdf_tools_search</string>
+    <string name="pdf_tools_search_backwards">Pesquisa para trás</string>
+    <string name="pdf_tools_search_document">Pesquisar documento</string>
+    <string name="pdf_tools_search_forwards">Pesquisa para a frente</string>
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Alternar modo de refluxo</string>
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+    <string name="searching">procurando…</string>
+    <string name="select_certificate_and_sign">selecione o certificado e assine?</string>
+    <string name="select_text">selecione o texto</string>
+    <string name="signature_checked">assinatura verificada</string>
+    <string name="text_not_found">texto não encontrado</string>
+    <string name="yes">sim</string>
+</resources>

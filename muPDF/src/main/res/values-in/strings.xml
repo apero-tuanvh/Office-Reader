@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Membatalkan</string>
+
+    <string name="cannot_open_buffer">Tidak bisa buffer</string>
+
+    <string name="cannot_open_document">Tidak Bisa Mendokumentasikan</string>
+
+    <string name="cannot_open_file_Path">Tidak Bisa Mengajukan Path</string>
+
+    <string name="choose_value">Pilih Nilai</string>
+
+    <string name="copied_to_clipboard">Menyalin ke clipboard</string>
+
+    <string name="copy_text">Salin Teks</string>
+
+    <string name="dialog_title">Judul</string>
+
+    <string name="dismiss">Memberhentikan</string>
+
+    <string name="no_match_found">Tidak ditemukan kecocokan</string>
+
+    <string name="document_has_changes_save_them">Dokumen memiliki perubahan, simpan tema</string>
+
+    <string name="enter_password">Masukkan kata kunci</string>
+
+    <string name="fill_out_text_field">isi bidang teks</string>
+
+    <string name="no">Tidak</string>
+
+    <string name="no_further_occurrences_found">tidak ada kejadian lebih lanjut yang ditemukan</string>
+
+    <string name="no_text_selected">tidak ada teks yang dipilih</string>
+
+    <string name="not_supported">tidak didukung</string>
+
+    <string name="nothing_to_save">tidak ada yang bisa disimpan</string>
+
+    <string name="okay">baik</string>
+
+    <string name="pdf_tools_accept">Menerima</string>
+
+    <string name="pdf_tools_copy">salinan</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+
+    <string name="pdf_tools_outline_title">Daftar isi</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">Cari mundur</string>
+
+    <string name="pdf_tools_search_document">Cari dokumen</string>
+
+    <string name="pdf_tools_search_forwards">Telusuri ke depan</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">mencari ...</string>
+
+    <string name="select_certificate_and_sign">pilih sertifikat dan tanda tangan?</string>
+
+    <string name="select_text">pilih teks</string>
+
+    <string name="signature_checked">tanda tangan diperiksa</string>
+
+    <string name="text_not_found">teks tidak ditemukan</string>
+
+    <string name="yes">Iya</string>
+</resources>

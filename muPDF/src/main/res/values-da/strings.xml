@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Afbestille</string>
+
+    <string name="cannot_open_buffer">Kan ikke buffer</string>
+
+    <string name="cannot_open_document">Kan ikke dokumentere</string>
+
+    <string name="cannot_open_file_Path">Kan ikke arkivere sti</string>
+
+    <string name="choose_value">Vælg værdi</string>
+
+    <string name="copied_to_clipboard">Kopier til udklipsholder</string>
+
+    <string name="copy_text">Kopier tekst</string>
+
+    <string name="dialog_title">Titel</string>
+
+    <string name="dismiss">Afskedige</string>
+
+    <string name="no_match_found">Ingen match fundet</string>
+
+    <string name="document_has_changes_save_them">Dokument har ændringer gemt tema</string>
+
+    <string name="enter_password">Indtast adgangskode</string>
+
+    <string name="fill_out_text_field">udfyld tekstfelt</string>
+
+    <string name="no">Ingen</string>
+
+    <string name="no_further_occurrences_found">ingen yderligere begivenheder fundet</string>
+
+    <string name="no_text_selected">ingen tekst valgt</string>
+
+    <string name="not_supported">ikke understøttet</string>
+
+    <string name="nothing_to_save">intet at spare</string>
+
+    <string name="okay">okay</string>
+
+    <string name="pdf_tools_accept">Acceptere</string>
+
+    <string name="pdf_tools_copy">kopi</string>
+
+    <string name="pdf_tools_delete">pdf_værktøj_delet</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_værktøj_højlys</string>
+
+    <string name="pdf_tools_ink">pdf_værktøj_ink</string>
+
+    <string name="pdf_tools_outline_title">Indholdsfortegnelse</string>
+
+    <string name="pdf_tools_search">pdf_værktøjssøgning</string>
+
+    <string name="pdf_tools_search_backwards">Søg baglæns</string>
+
+    <string name="pdf_tools_search_document">Søg i dokumentet</string>
+
+    <string name="pdf_tools_search_forwards">Søg fremad</string>
+
+    <string name="pdf_tools_strike_out">pdf_værktøj_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Fremhæv_og_aktiver_links</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_værktøj_underline</string>
+
+    <string name="searching">søger…</string>
+
+    <string name="select_certificate_and_sign">vælge certifikat og underskrive?</string>
+
+    <string name="select_text">vælg tekst</string>
+
+    <string name="signature_checked">signatur kontrolleret</string>
+
+    <string name="text_not_found">tekst ikke fundet</string>
+
+    <string name="yes">Ja</string>
+</resources>

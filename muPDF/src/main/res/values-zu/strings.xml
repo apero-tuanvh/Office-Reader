@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Khansela</string>
+
+    <string name="cannot_open_buffer">Ayikwazi ukubhafa</string>
+
+    <string name="cannot_open_document">Ayikwazi ukubhala</string>
+
+    <string name="cannot_open_file_Path">Ayikwazi Ukuhambisa Indlela</string>
+
+    <string name="choose_value">Khetha Inani</string>
+
+    <string name="copied_to_clipboard">Kopishela kubhodi yokunamathisela</string>
+
+    <string name="copy_text">Kopisha Umbhalo</string>
+
+    <string name="dialog_title">Isihloko</string>
+
+    <string name="dismiss">Chitha</string>
+
+    <string name="no_match_found">Akukho okufanayo okutholakele</string>
+
+    <string name="document_has_changes_save_them">Idokhumenti inezinguquko zokulondoloza itimu</string>
+
+    <string name="enter_password">faka iphasiwedi</string>
+
+    <string name="fill_out_text_field">gcwalisa inkambu yombhalo</string>
+
+    <string name="no">Cha</string>
+
+    <string name="no_further_occurrences_found">akukho okunye okuvelile okutholakele</string>
+
+    <string name="no_text_selected">awukho umbhalo okhethiwe</string>
+
+    <string name="not_supported">hhayi_sekelwa</string>
+
+    <string name="nothing_to_save">lutho ukusindisa</string>
+
+    <string name="okay">kulungile</string>
+
+    <string name="pdf_tools_accept">Yamukela</string>
+
+    <string name="pdf_tools_copy">ikhophi</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_amathuluzi_ink</string>
+
+    <string name="pdf_tools_outline_title">Okuqukethwe</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">Sesha emuva</string>
+
+    <string name="pdf_tools_search_document">Sesha idokhumenti</string>
+
+    <string name="pdf_tools_search_forwards">Sesha phambili</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Gqamisa_ futhi unike amandla_izixhumanisi</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">iyasesha…</string>
+
+    <string name="select_certificate_and_sign">khetha isitifiketi bese usayina?</string>
+
+    <string name="select_text">khetha umbhalo</string>
+
+    <string name="signature_checked">isiginesha ihloliwe</string>
+
+    <string name="text_not_found">umbhalo awutholakali</string>
+
+    <string name="yes">Yebo</string>
+</resources>

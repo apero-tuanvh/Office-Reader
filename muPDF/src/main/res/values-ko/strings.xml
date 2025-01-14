@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">취소</string>
+
+    <string name="cannot_open_buffer">버퍼링 할 수 없습니다.</string>
+
+    <string name="cannot_open_document">문서화 할 수 없음</string>
+
+    <string name="cannot_open_file_Path">파일 경로 수 없습니다</string>
+
+    <string name="choose_value">가치 선택</string>
+
+    <string name="copied_to_clipboard">클립 보드에 복사</string>
+
+    <string name="copy_text">텍스트 복사</string>
+
+    <string name="dialog_title">표제</string>
+
+    <string name="dismiss">버리다</string>
+
+    <string name="no_match_found">일치하는 항목이 없습니다.</string>
+
+    <string name="document_has_changes_save_them">문서에 테마 저장이 변경되었습니다.</string>
+
+    <string name="enter_password">암호를 입력</string>
+
+    <string name="fill_out_text_field">텍스트 필드 작성</string>
+
+    <string name="no">아니</string>
+
+    <string name="no_further_occurrences_found">더 이상 발견되지 않음</string>
+
+    <string name="no_text_selected">선택된 텍스트 없음</string>
+
+    <string name="not_supported">지원되지 않음</string>
+
+    <string name="nothing_to_save">저장할 것이 없다</string>
+
+    <string name="okay">괜찮아</string>
+
+    <string name="pdf_tools_accept">동의하기</string>
+
+    <string name="pdf_tools_copy">부</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+
+    <string name="pdf_tools_outline_title">목차</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">뒤로 검색</string>
+
+    <string name="pdf_tools_search_document">문서 검색</string>
+
+    <string name="pdf_tools_search_forwards">앞으로 검색</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">수색…</string>
+
+    <string name="select_certificate_and_sign">인증서를 선택하고 서명 하시겠습니까?</string>
+
+    <string name="select_text">텍스트 선택</string>
+
+    <string name="signature_checked">서명 확인</string>
+
+    <string name="text_not_found">텍스트를 찾을 수 없습니다</string>
+
+    <string name="yes">예</string>
+</resources>

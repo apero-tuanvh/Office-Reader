@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">キャンセル</string>
+
+    <string name="cannot_open_buffer">バッファリングできません</string>
+
+    <string name="cannot_open_document">文書化できません</string>
+
+    <string name="cannot_open_file_Path">パスをファイルできません</string>
+
+    <string name="choose_value">値を選択</string>
+
+    <string name="copied_to_clipboard">クリップボードにコピー</string>
+
+    <string name="copy_text">テキストをコピーする</string>
+
+    <string name="dialog_title">題名</string>
+
+    <string name="dismiss">退出させる</string>
+
+    <string name="no_match_found">一致するものが見つかりません</string>
+
+    <string name="document_has_changes_save_them">ドキュメントに変更があり、テーマを保存します</string>
+
+    <string name="enter_password">パスワードを入力する</string>
+
+    <string name="fill_out_text_field">テキストフィールドに入力します</string>
+
+    <string name="no">番号</string>
+
+    <string name="no_further_occurrences_found">それ以上の発生は見つかりませんでした</string>
+
+    <string name="no_text_selected">テキストが選択されていません</string>
+
+    <string name="not_supported">サポートされていません</string>
+
+    <string name="nothing_to_save">保存するものはありません</string>
+
+    <string name="okay">はい</string>
+
+    <string name="pdf_tools_accept">受け入れる</string>
+
+    <string name="pdf_tools_copy">コピー</string>
+
+    <string name="pdf_tools_delete">pdf_tools_delete</string>
+
+    <string name="pdf_tools_draw_annotation">pdf_tools_draw_annotation</string>
+
+    <string name="pdf_tools_highlight">pdf_tools_highlight</string>
+
+    <string name="pdf_tools_ink">pdf_tools_ink</string>
+
+    <string name="pdf_tools_outline_title">目次</string>
+
+    <string name="pdf_tools_search">pdf_tools_search</string>
+
+    <string name="pdf_tools_search_backwards">逆方向に検索</string>
+
+    <string name="pdf_tools_search_document">ドキュメントを検索</string>
+
+    <string name="pdf_tools_search_forwards">前方検索</string>
+
+    <string name="pdf_tools_strike_out">pdf_tools_strike_out</string>
+
+    <string name="pdf_tools_toggle_links">Highlight_and_enable_links</string>
+
+    <string name="pdf_tools_toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
+
+    <string name="pdf_tools_underline">pdf_tools_underline</string>
+
+    <string name="searching">検索中…</string>
+
+    <string name="select_certificate_and_sign">証明書を選択して署名しますか？</string>
+
+    <string name="select_text">テキストを選択</string>
+
+    <string name="signature_checked">署名チェック</string>
+
+    <string name="text_not_found">テキストが見つかりません</string>
+
+    <string name="yes">はい</string>
+</resources>

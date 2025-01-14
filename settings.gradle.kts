@@ -41,3 +41,4 @@ dependencyResolutionManagement {
 rootProject.name = "Office Reader"
 include(":app")
 include(":reader")
+include(":muPDF")
