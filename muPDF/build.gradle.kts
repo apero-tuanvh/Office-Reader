@@ -60,7 +60,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "apero-inhouse"
             artifactId = "office-mu-pdf"
-            version = "0.0.2"
+            version = "0.0.6"
             artifact("${project.buildDir}/outputs/aar/muPDF-release.aar")
             pom.withXml {
                 val dependenciesNode =

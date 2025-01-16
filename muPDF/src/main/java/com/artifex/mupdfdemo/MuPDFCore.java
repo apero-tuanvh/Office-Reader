@@ -12,6 +12,9 @@ import android.graphics.RectF;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
+
+import com.artifex.mupdfdemo.utils.FileUtils;
 import com.example.mylibrary.R;
 
 import java.util.ArrayList;
@@ -30,6 +33,10 @@ public class MuPDFCore {
     private final boolean wasOpenedFromBuffer;
 
     private boolean isSearch;
+
+    private Context context;
+
+    private String filePath;
 
     public void setSearch(boolean search) {
         isSearch = search;
@@ -145,6 +152,8 @@ public class MuPDFCore {
         this.file_format = this.fileFormatInternal();
         this.isUnencryptedPDF = this.isUnencryptedPDFInternal();
         this.wasOpenedFromBuffer = false;
+        this.context = context;
+        this.filePath = filename;
         try {
             DisplayMetrics displayMetrics = new DisplayMetrics();
             ((Activity) context).getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
@@ -157,6 +166,11 @@ public class MuPDFCore {
         }
     }
 
+    public MuPDFCore(final Context context, final String filePath, @NonNull final String password) throws Exception {
+        this(context, filePath);
+        this.authenticatePasswordInternal(password);
+    }
+
     public MuPDFCore(final Context context, final byte[] buffer, final String magic) throws Exception {
         this.numPages = -1;
         this.fileBuffer = buffer;
@@ -167,6 +181,7 @@ public class MuPDFCore {
         this.file_format = this.fileFormatInternal();
         this.isUnencryptedPDF = this.isUnencryptedPDFInternal();
         this.wasOpenedFromBuffer = true;
+        this.context = context;
     }
 
     public int countPages() {
@@ -178,6 +193,19 @@ public class MuPDFCore {
 
     public String fileFormat() {
         return this.file_format;
+    }
+
+    public boolean isFileError() {
+        if (this.file_format.contains("Error")) {
+            return true;
+        }
+        if (this.file_format.contains("0.0")) {
+            return true;
+        }
+        if (!this.needsPassword()){
+            return !FileUtils.canOpenFilePdf(this.context, this.filePath);
+        }
+        return false;
     }
 
     public boolean isUnencryptedPDF() {
