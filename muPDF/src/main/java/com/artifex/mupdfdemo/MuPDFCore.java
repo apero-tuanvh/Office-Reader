@@ -145,10 +145,16 @@ public class MuPDFCore {
         this.file_format = this.fileFormatInternal();
         this.isUnencryptedPDF = this.isUnencryptedPDFInternal();
         this.wasOpenedFromBuffer = false;
-        DisplayMetrics displayMetrics = new DisplayMetrics();
-        ((Activity) context).getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-        height = displayMetrics.heightPixels;
-        width = displayMetrics.widthPixels;
+        try {
+            DisplayMetrics displayMetrics = new DisplayMetrics();
+            ((Activity) context).getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+            height = displayMetrics.heightPixels;
+            width = displayMetrics.widthPixels;
+        } catch (Exception e) {
+            Log.e(TAG, "MuPDFCore: ", e);
+            height = 1080;
+            width = 1920;
+        }
     }
 
     public MuPDFCore(final Context context, final byte[] buffer, final String magic) throws Exception {
